@@ -1,0 +1,8 @@
+<table class="table table-striped" >
+    <tr ng-repeat="repo in repos.data">
+        <td>
+            <a ng-click="$parent.repoSearch(repo.name)">{{repo.name}}</a>
+        </td>
+    </tr>
+</table>
+<hr/>
